@@ -1,9 +1,0 @@
- SELECT gender, COUNT(*) as count FROM employees GROUP BY gender ORDER BY count DESC;
- 
- SELECT date_format(hire_date,"%M"), COUNT(*) AS total_hires
-FROM employees
-GROUP BY hire_date
-ORDER BY total_hires DESC;
- 
- select * from employees where gender like 'f' and (first_name like 'kellie' or first_name like 'Aruna');
- select dept_name,dept_no from departments where dept_no between 'd003' and 'd006';
